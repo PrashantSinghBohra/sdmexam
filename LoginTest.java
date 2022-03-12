@@ -31,6 +31,7 @@ public class JenkinsTest {
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
+	//Updated
   }
   @After
   public void tearDown() {
